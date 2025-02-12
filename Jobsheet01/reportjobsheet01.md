@@ -4,9 +4,9 @@
 
 <img src="https://komarev.com/ghpvc/?username=username-anda&style=flat-square&color=blue" alt=""/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Mahasiswa+Teknik+Informatika;NIM+%3A+123456789;Kelas+%3A+TI-1A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Mahasiswa+Teknik+Informatika;NIM+%3A+244107020227;Kelas+%3A+TI-1I)]
 
-<img src="Aco.jpg" width="400px" style="border-radius: 50%;" />
+<img src="Aco.jpg" width="600px" height="300px" style="border-radius: 50%;" />
 
 ## 🎓 Detail Mahasiswa
 

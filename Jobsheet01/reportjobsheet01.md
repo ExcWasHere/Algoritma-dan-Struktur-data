@@ -12,8 +12,8 @@
 
 | Detail   | Keterangan  |
 | -------- | ----------- |
-| Nama     | [Nama Anda] |
-| NIM      | [123456789] |
-| Kelas    | [TI-1A]     |
-| Angkatan | 2023        |
+| Nama     | [ExcellChristian] |
+| NIM      | [244107020227] |
+| Kelas    | [TI-1I]     |
+| Angkatan | 2024        |
 </div>

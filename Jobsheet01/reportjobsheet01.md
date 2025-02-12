@@ -6,7 +6,7 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Mahasiswa+Teknik+Informatika;NIM+%3A+244107020227;Kelas+%3A+TI-1I)
 
-<img src="Aco.jpg" width="600px" height="300px" />
+<img src="img/Aco.jpg" width="600px" height="300px" />
 
 ## 🎓 Detail Mahasiswa
 

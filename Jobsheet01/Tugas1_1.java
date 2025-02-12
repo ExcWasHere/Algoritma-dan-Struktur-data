@@ -1,7 +1,7 @@
 package Jobsheet01;
 import java.util.Scanner;
 
-public class Latihan1_1 {
+public class Tugas1_1 {
     public static boolean HaudValidasi(double grade) {
         return grade >= 0 && grade <= 100;
     }

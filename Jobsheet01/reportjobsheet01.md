@@ -104,3 +104,22 @@ The solution is implemented in **Assignment2.java**, and below is screenshot of 
 3. 1 for volume, 2 for surface are, 3 for perimeter
 4. Inside of each of this function ask the user to input the length of it's side, then check wether the input is negative or not, if not it will calculate it with it's each own formula
 5. Return the result
+
+## ASSIGNMENT 3
+
+The solution is implemented in **Assignment3.java**, and below is screenshot of the result.
+
+![Screenshot](img/Photo8.png)
+![Screenshot](img/Photo9.png)
+![Screenshot](img/Photo10.png.png)
+
+**Brief explanation:**
+
+1. User input the number of courses they are taking
+2. Using loop, the program ask input for semester, sorse name, credit hours, and lecture day, and puts its inside each of their own array
+3. After completing the input it will then display the menu from which they can pick.
+4. The first menu is a function to display all of the courses and it's details using loop
+5. The second is to display course by lecture day. The user inputs the day name and the program will search using loop and display the course if found
+6. The third menu is to display course by semester. The user inputs the semester and the program will search using loop and display the course if found
+7. The fourth is to search course by name. The user inputs the corse name and the program will search using loop and display the course if found
+8. The program will continuously display the menu, to exit user must choose the 5th menu so the program will terminate

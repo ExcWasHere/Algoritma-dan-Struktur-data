@@ -111,7 +111,7 @@ The solution is implemented in **Assignment3.java**, and below is screenshot of 
 
 ![Screenshot](img/Photo8.png)
 ![Screenshot](img/Photo9.png)
-![Screenshot](img/Photo10.png.png)
+![Screenshot](img/Photo10.png)
 
 **Brief explanation:**
 

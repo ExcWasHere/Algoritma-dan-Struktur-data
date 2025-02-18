@@ -63,3 +63,17 @@ The solution is implemented in **Tugas3_3.java**, and below is screenshot of the
 4. Switch case function is used to assign each course with it's letter grade 
 5. The final GPA is calculated using the formula and the information collected by the program form the user inputs.
 6. The output use for loop and padding format to display the result in tabular form.
+
+## 2.4.1. Function Solution
+
+The solution is implemented in **Tugas4_4.java**, and below is screenshot of the result.
+
+![Screenshot](img/Photo5.png)
+
+**Brief explanation:**  
+It will be a little bit more complex, because I added few more features
+
+1. Two dimensional array is used to store the stock of each branch. With the row stands for the braches and the column stands for the stock of flower
+2. Using a function we calculate the total earning of each branch
+3. Then asked the user wether they want to knows how much of the stock remain if there's a reduction (dead flowers)
+4. When the user pick a branh (branch 4 from the question) then it will display the remaining stock after reduction

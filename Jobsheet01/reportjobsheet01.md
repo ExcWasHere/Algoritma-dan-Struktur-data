@@ -77,3 +77,16 @@ It will be a little bit more complex, because I added few more features
 2. Using a function we calculate the total earning of each branch
 3. Then asked the user wether they want to knows how much of the stock remain if there's a reduction (dead flowers)
 4. When the user pick a branh (branch 4 from the question) then it will display the remaining stock after reduction
+
+##  ASSIGNMENT 1
+
+The solution is implemented in **Assignment1.java**, and below is screenshot of the result.
+
+![Screenshot](img/Photo6.png)
+
+**Brief explanation:** 
+
+1. Two array is used, the first to store the car plate code which is one dimensional, the second is 10 by 12 two dimensional char array to contain the name of the city up to twelve character
+2. User input the car plate code
+3. For loop is used to search for the code in the array
+4. If the code is founded then display the city name, if not displays that the code is not found

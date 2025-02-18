@@ -45,8 +45,8 @@ public class Assignment2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("=============== MENU ===============");
-        System.out.println("Welcome to Cube Calculator!");
+        System.out.println("-------------- MENU ---------------");
+        System.out.println("Welcome to Exc Cube Calci!");
         System.out.println("1. Calculate Volume");
         System.out.println("2. Calculate Surface Area");
         System.out.println("3. Calculate Perimeter (Edge Length)");

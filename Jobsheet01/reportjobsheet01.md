@@ -90,3 +90,17 @@ The solution is implemented in **Assignment1.java**, and below is screenshot of 
 2. User input the car plate code
 3. For loop is used to search for the code in the array
 4. If the code is founded then display the city name, if not displays that the code is not found
+
+##  ASSIGNMENT 2
+
+The solution is implemented in **Assignment2.java**, and below is screenshot of the result.
+
+![Screenshot](img/Photo7.png)
+
+**Brief explanation:** 
+
+1. Inside the main function theres a menu to ask the user to choose between 3 option of calculation volume, surface area and perimeter
+2. Using switch case, each of the option run a specific function
+3. 1 for volume, 2 for surface are, 3 for perimeter
+4. Inside of each of this function ask the user to input the length of it's side, then check wether the input is negative or not, if not it will calculate it with it's each own formula
+5. Return the result

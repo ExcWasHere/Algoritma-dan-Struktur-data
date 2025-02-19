@@ -29,6 +29,10 @@ public AssignmentJS2(String id, String name, int crdt, int Hour){
     }
 
     static void reducedHour(int reducedHour){
-        hour -= reducedHour;
+        if (hour < reducedHour) {
+            System.out.println("Hour cannot be reduced");
+        } else if (hour >= reducedHour) {
+            hour -= reducedHour;
+        }
     }
 }

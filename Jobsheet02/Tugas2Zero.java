@@ -6,6 +6,13 @@ static String Name;
 static String className;
 static double IPK;
 
+public Tugas2Zero(String id, String name, String cls, double ipk){
+    NIM = id;
+    Name = name;
+    className = cls;
+    IPK = ipk;
+}
+
     static void printData(){
         System.out.println("NIM: " + NIM);
         System.out.println("Name: " + Name);
@@ -19,6 +26,11 @@ static double IPK;
 
     void updateIPK(double newIPK){
         IPK = newIPK;
+        if (IPK > 4.0 || IPK < 0.0) {
+            System.out.println("IPK is Invalid!, IPK must be between 0.0 - 4.0");
+        } else {
+            System.out.println("Please Input the correct number of IPK!");
+        }
     }
 
     String evaluate(){

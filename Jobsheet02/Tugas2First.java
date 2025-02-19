@@ -16,7 +16,4 @@ public class Tugas2First {
         student2.updateIPK(3.3);
         student2.printData();
     }
-
-    
-
 }

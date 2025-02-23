@@ -18,3 +18,11 @@
 | Angkatan | 2024        |
 </div>
 
+# Labs #2 Object
+
+# 2.1 Experiment 1
+
+### 2.1.2 Verification Experiments Result
+![Screenshot](/img/New1.png)
+
+### 2.1.3 Question Answers

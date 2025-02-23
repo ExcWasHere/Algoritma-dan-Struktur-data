@@ -6,7 +6,7 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Mahasiswa+Teknik+Informatika;NIM+%3A+244107020227;Kelas+%3A+TI-1I)
 
-<img src="img/Aco.jpg" width="300px" height="300px" />
+<img src="/img/Aco.jpg" width="300px" height="300px" />
 
 ## 🎓 Detail Mahasiswa
 
@@ -24,8 +24,8 @@
 
 The solution is implemented in **Tugas1_1**.java, and below is screenshot of the result.
 
-![Screenshot](img/Photo1.png)
-![Screenshot](img/Photo2.png)
+![Screenshot](/img/Photo1.png)
+![Screenshot](/img/Photo2.png)
 
 **Brief explanation:** There are 4 main step: 
 1. Input all grades
@@ -37,7 +37,7 @@ The solution is implemented in **Tugas1_1**.java, and below is screenshot of the
 
 The solution is implemented in **Tugas2_2.java**, and below is screenshot of the result.
 
-![Screenshot](img/Photo3.png)
+![Screenshot](/img/Photo3.png)
 
 **Brief explanation:**
 
@@ -54,7 +54,7 @@ The solution is implemented in **Tugas2_2.java**, and below is screenshot of the
 
 The solution is implemented in **Tugas3_3.java**, and below is screenshot of the result.
 
-![Screenshot](img/Photo4.png)
+![Screenshot](/img/Photo4.png)
 
 **Brief explanation:**
 1. Array containing Course name and it's credit already hardcoded into the program, the user input array numerical grade that is going to be put inside another array for numerical grade, while input for letter grade and it's GPA value will be inputed into each of it's own array using if else and witch function
@@ -68,7 +68,7 @@ The solution is implemented in **Tugas3_3.java**, and below is screenshot of the
 
 The solution is implemented in **Tugas4_4.java**, and below is screenshot of the result.
 
-![Screenshot](img/Photo5.png)
+![Screenshot](/img/Photo5.png)
 
 **Brief explanation:**  
 It will be a little bit more complex, because I added few more features
@@ -82,7 +82,7 @@ It will be a little bit more complex, because I added few more features
 
 The solution is implemented in **Assignment1.java**, and below is screenshot of the result.
 
-![Screenshot](img/Photo6.png)
+![Screenshot](/img/Photo6.png)
 
 **Brief explanation:** 
 
@@ -95,7 +95,7 @@ The solution is implemented in **Assignment1.java**, and below is screenshot of 
 
 The solution is implemented in **Assignment2.java**, and below is screenshot of the result.
 
-![Screenshot](img/Photo7.png)
+![Screenshot](/img/Photo7.png)
 
 **Brief explanation:** 
 
@@ -109,9 +109,9 @@ The solution is implemented in **Assignment2.java**, and below is screenshot of 
 
 The solution is implemented in **Assignment3.java**, and below is screenshot of the result.
 
-![Screenshot](img/Photo8.png)
-![Screenshot](img/Photo9.png)
-![Screenshot](img/Photo10.png)
+![Screenshot](/img/Photo8.png)
+![Screenshot](/img/Photo9.png)
+![Screenshot](/img/Photo10.png)
 
 **Brief explanation:**
 

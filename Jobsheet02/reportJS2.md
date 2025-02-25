@@ -55,4 +55,27 @@
 2. To access an object attributes we use the don notation (.) followed by variable
 3. Because the first print() is executed before the changeClass() and updateGPA() ran. So the first print() output is before and the second print() is after the two methods are executed.
 
+# 2.3 Experiment 3
 
+## 2.3.2 Verifivation Experiment Result
+
+![Screenshot](/img/New5.png)
+
+## 2.3.3 Questions Answer
+
+1. ![Screenshot](/img/New6.png)
+2. The new Tugas2Zero calls the constructor of Tugas2Zero class to create a new Tugas2Zero object and it will pass the four argument user inputted to the constructor that will be assigned to each attributes
+3. If we remove the default constructor, we will get an error message. Because, in Tugas2First we call a constructor that need no argument, but in Tugas2Zero Class we only provide a constructor that needs 4 argument, that's why it throws an error
+4. No, because it works independently unless it needs another result from another methods and will work as long as it has been instantiated
+![Screenshot](/img/New7.png)
+![Screenshot](/img/New8.png)
+
+
+
+The implementation is in **Student19.java** & **StudentMain.java**, and this is a screenshot for the result:
+
+![Screenshot]()
+
+**Explanation:**
+1. 
+2. 

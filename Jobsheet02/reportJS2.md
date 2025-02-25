@@ -44,3 +44,15 @@
 
 5. The evaluate() method evaluates the student performance by evaluating the value of the students GPA by the parameter given. It returns a String value of either cumlaude, good, fair and poor
 
+# 2.2 Experiment 2
+
+### 2.2.2 Verification Experiments Result
+
+![Screenshot](/img/New3.png)
+
+### 2.2.3 Question Answers
+1. ![Screenshot](/img/New4.png)
+2. To access an object attributes we use the don notation (.) followed by variable
+3. Because the first print() is executed before the changeClass() and updateGPA() ran. So the first print() output is before and the second print() is after the two methods are executed.
+
+

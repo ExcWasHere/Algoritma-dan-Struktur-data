@@ -9,7 +9,7 @@ public class Tugas2First {
         student1.IPK = 4.1;
         student1.printData();
         student1.changeClass("TI-2I");
-        student1.updateIPK(4.0);
+        student1.updateIPK(3.9);
         student1.printData(); 
 
         Tugas2Zero student2 = new Tugas2Zero("244107020227", "Ridho", "TI-1I", 3.6);

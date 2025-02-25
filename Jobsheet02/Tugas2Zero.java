@@ -25,11 +25,10 @@ public Tugas2Zero(String id, String name, String cls, double ipk){
     }
 
     void updateIPK(double newIPK){
-        IPK = newIPK;
-        if (IPK > 4.0 || IPK < 0.0) {
-            System.out.println("IPK is Invalid!, IPK must be between 0.0 - 4.0");
+        if (IPK >= 0.0 && IPK <= 4.0) {
+            IPK = newIPK;
         } else {
-            System.out.println("Please Input the correct number of IPK!");
+            System.out.println("IPK is Invalid!, IPK must be between 0.0 - 4.0");
         }
     }
 

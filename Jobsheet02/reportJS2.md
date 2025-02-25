@@ -26,3 +26,21 @@
 ![Screenshot](/img/New1.png)
 
 ### 2.1.3 Question Answers
+1. In object-oriented programming, a class functions as a blueprint or plan that can only be declared once, while objects are physical entities that can be instantiated multiple times from the same class. Each object contains attributes (variables that store data) and methods (functions that perform operations) that work together.
+
+2. Student class has 4 attribute 
+<ol>- Student Id</ol>
+<ol>- Student name</ol>
+<ol>- Class name</ol>
+<ol>- GPA</ol>
+
+3. Student class has 4 methods
+<ol>- Print</ol>
+<ol>- Change class</ol>
+<ol>- Update GPA</ol>
+<ol>- Evaluate</ol>
+
+4. ![Screenshot](/img/New2.png)
+
+5. The evaluate() method evaluates the student performance by evaluating the value of the students GPA by the parameter given. It returns a String value of either cumlaude, good, fair and poor
+

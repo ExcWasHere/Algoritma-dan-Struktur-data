@@ -70,12 +70,22 @@
 ![Screenshot](/img/New7.png)
 ![Screenshot](/img/New8.png)
 
+## ASSIGNMENT 1
 
+The implementation is in **AssignmentJS2.java** & **AssignmentJS2Main.java**, and this is a screenshot for the result:
 
-The implementation is in **Student19.java** & **StudentMain.java**, and this is a screenshot for the result:
-
-![Screenshot]()
+![Screenshot](/img/New9.png)
 
 **Explanation:**
-1. 
-2. 
+1.On the AssignmentJS2.java there's object's attributes, and methods. There are also parameterized constructor. Methods to assign the object attributes, methods to print, methods to change credit, and hours.
+2. On the AssignmentJS2Main.java it's the main function where object is instantiated and the attributes is assigned by calling the constructor.
+
+# ASSIGNMENT 2
+
+The implementation is in **LecturerBahan.java** & **LectureMain.java**, and this is a screenshot for the result:
+
+![Screenshot](/img/New10.png)
+
+**Explanation:**
+1. On the LecturerBahan.java there's object's attributes, and methods. There are also parameterized constructor. Methods to assign the object attributes, methods to print, methods to change field expertise, active status, and to calculate tenure.
+2. On the LectureMain.java it's the main function where object is instantiated and the attributes is assigned by calling the constructor.

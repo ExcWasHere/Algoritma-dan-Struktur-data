@@ -12,5 +12,11 @@ public class Lecturer11 {
         this.isMale = isMale;
     }
 
-    
+    public void displayInfo() {
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Gender: " + (isMale ? "Male" : "Female"));
+        System.out.println("Age: " + age);
+        System.out.println("------------------------");
+    }
 }

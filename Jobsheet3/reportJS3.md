@@ -38,3 +38,7 @@
    - The third line assigns the value 80 to the width attribute of the `Rectangle` in index 1
 
 5. So that we can avoid mixing data representation and logic, we can also reuse the `Rectangle()` class in other parts of our program if we separate it from the `ArrayOfObjects` class.
+
+# 1.3 Input data into Array of Objects using Loops
+
+### 1.3.2 Result

@@ -1,4 +1,4 @@
-package Jobsheet3;
+package Jobsheet03;
 
 public class Lecturer11 {
     String name, id;

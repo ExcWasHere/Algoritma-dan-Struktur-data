@@ -1,4 +1,4 @@
-package Jobsheet3;
+package Jobsheet03;
 
 public class LecturerData11 {
     public void showAllLecturerData(Lecturer11[] lecturerArray) {

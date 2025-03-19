@@ -12,10 +12,10 @@ public class BruteForceDivideConquer {
     }
 
     int factorialDC(int n) {
-        if (n==1) {
+        if (n == 1) {
             return 1;
         } else {
-            int fakto = n * factorialDC(n-1);
+            int fakto = n * factorialDC(n - 1);
             return fakto;
         }
     }
@@ -25,7 +25,9 @@ public class BruteForceDivideConquer {
         System.out.print("Input Number: ");
         int num = sc.nextInt();
 
-        System.out.println("The factorial of " + num + " using Brute Force is: " + new BruteForceDivideConquer().factorialBF(num));
-        System.out.println("The factorial of " + num + " using Divide and Conquer is: " + new BruteForceDivideConquer().factorialDC(num));
+        System.out.println(
+                "The factorial of " + num + " using Brute Force is: " + new BruteForceDivideConquer().factorialBF(num));
+        System.out.println("The factorial of " + num + " using Divide and Conquer is: "
+                + new BruteForceDivideConquer().factorialDC(num));
     }
 }

@@ -1,4 +1,4 @@
-package Jobsheet3;
+package Jobsheet03;
 
 public class Rectangle {
     public int width;

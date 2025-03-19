@@ -1,4 +1,4 @@
-package Jobsheet3;
+package Jobsheet03;
 import java.util.Scanner;
 
 public class RectangleMain {

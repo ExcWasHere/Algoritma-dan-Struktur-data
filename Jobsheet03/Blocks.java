@@ -1,4 +1,4 @@
-package Jobsheet3;
+package Jobsheet03;
 
 public class Blocks {
     public int width, length, height;

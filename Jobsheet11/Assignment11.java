@@ -40,8 +40,6 @@ public class Assignment11 {
         public void setApproved(boolean approved) {
             isApproved = approved;
         }
-
-        @Override
         public String toString() {
             return "NIM: " + nim + ", Nama: " + name + ", Jurusan: " + major + ", No. HP: " + phoneNumber;
         }

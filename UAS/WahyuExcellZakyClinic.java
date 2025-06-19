@@ -50,9 +50,47 @@ class PatientQueue {
         return patientCount;
     }
 
+    public void getPatientsByRange(int startPosition, int endPosition) { // jawaban UAS
+        if (isEmpty()) {
+            System.out.println("Queue is empty.");
+            return;
+        }
+
+        if (startPosition < 1 || endPosition < 1 || startPosition > patientCount || endPosition > patientCount) {
+            System.out.println("Invalid range. Position should be between 1 and " + patientCount);
+            return;
+        }
+
+        if (startPosition > endPosition) {
+            System.out.println("Start position should not be greater than end position.");
+            return;
+        }
+
+        System.out.println("\n=== PATIENTS FROM POSITION " + startPosition + " TO " + endPosition + " ===");
+
+        Patient current = head;
+        int currentPosition = 1;
+
+        while (currentPosition < startPosition) {
+            current = current.next;
+            currentPosition++;
+        }
+
+        while (currentPosition <= endPosition) {
+            System.out.println("Position " + currentPosition + ":");
+            current.displayInformation();
+            System.out.println("------------------------");
+
+            if (currentPosition < endPosition) {
+                current = current.next;
+            }
+            currentPosition++;
+        }
+    }
+
     public void addPatient(String name, String idNumber, String complaint) {
         Patient newPatient = new Patient(name, idNumber, complaint);
-        
+
         if (head == null) {
             head = newPatient;
             tail = newPatient;
@@ -86,6 +124,28 @@ class PatientQueue {
         System.out.println("Total patients in queue: " + patientCount);
     }
 
+    public Patient getPatientByPosition(int position) { // jawabanUAS
+        if (isEmpty()) {
+            System.out.println("Queue is empty.");
+            return null;
+        }
+
+        if (position < 1 || position > patientCount) {
+            System.out.println("Invalid position. Position should be between 1 and " + patientCount);
+            return null;
+        }
+
+        Patient current = head;
+        int currentPosition = 1;
+
+        while (currentPosition < position) {
+            current = current.next;
+            currentPosition++;
+        }
+
+        return current;
+    }
+
     public Patient servePatient() {
         if (isEmpty()) {
             System.out.println("No patients in queue.");
@@ -106,6 +166,14 @@ class PatientQueue {
         System.out.println("Serving patient: " + servedPatient.name);
         return servedPatient;
     }
+
+    public void displayPatientByPosition(int position) { //JawabanUAS
+        Patient patient = getPatientByPosition(position);
+        if (patient != null) {
+            System.out.println("\n=== PATIENT AT POSITION " + position + " ===");
+            patient.displayInformation();
+        }
+    }   
 }
 
 class ServiceTransaction {
@@ -151,7 +219,7 @@ class Transaction {
         queue[rear] = transaction;
         size++;
     }
-    
+
     public boolean isFull() {
         return size == maxSize;
     }
@@ -165,7 +233,7 @@ class Transaction {
             System.out.println("No transactions.");
             return;
         }
-        
+
         System.out.println("=== SERVICE TRANSACTION HISTORY ===");
         int index = front;
         for (int i = 0; i < size; i++) {
@@ -195,8 +263,41 @@ class ClinicSystem {
         System.out.println("3. Serve Patient");
         System.out.println("4. Check Remaining Patients in Queue");
         System.out.println("5. Display Transaction History");
-        System.out.println("6. Exit");
+        System.out.println("6. Get Patients by Range");
+        System.out.println("7. Get Patient by Position");
+        System.out.println("8. Exit");
         System.out.print("Select menu option: ");
+    }
+
+    void getPatientRangeMenu() { //Jawaban UAS
+        System.out.println("\n=== GET PATIENTS BY RANGE ===");
+        System.out.println("Total patients in queue: " + patientQueue.remainingPatients());
+
+        if (patientQueue.isEmpty()) {
+            System.out.println("No patients in queue.");
+            return;
+        }
+
+        System.out.print("Enter start position: ");
+        int startPosition = scanner.nextInt();
+        System.out.print("Enter end position: ");
+        int endPosition = scanner.nextInt();
+        scanner.nextLine();
+
+        patientQueue.getPatientsByRange(startPosition, endPosition);
+    }
+
+    public void getPatientByPositionMenu() { //Jawaban UAS
+        System.out.println("\n=== GET PATIENT BY POSITION ===");
+        System.out.println("Total patients in queue: " + patientQueue.remainingPatients());
+        if (patientQueue.isEmpty()) {
+            System.out.println("No patients in queue.");
+            return;
+        }
+        System.out.print("Enter patient position: ");
+        int position = scanner.nextInt();
+        scanner.nextLine();
+        patientQueue.displayPatientByPosition(position);
     }
 
     public void addPatientMenu() {
@@ -240,7 +341,7 @@ class ClinicSystem {
         }
     }
 
-    public void checkRemainingPatientsMenu() {
+    public void checkRemainingPatientsMenu() { 
         System.out.println("\n=== CHECK REMAINING PATIENTS ===");
         int remaining = patientQueue.remainingPatients();
         System.out.println("Remaining patients in queue: " + remaining);
@@ -276,18 +377,24 @@ class ClinicSystem {
                     transactionQueue.displayHistory();
                     break;
                 case 6:
+                    getPatientRangeMenu();
+                    break;
+                case 7: // Jawaban UAS
+                    getPatientByPositionMenu();
+                    break;
+                case 8:
                     System.out.println("Thank you for using Wahyu Excell Zaky Clinic System!");
                     break;
                 default:
                     System.out.println("Invalid choice!");
             }
 
-            if (choice != 6) {
+            if (choice != 8) {
                 System.out.println("\nPress Enter to continue...");
                 scanner.nextLine();
             }
 
-        } while (choice != 6);
+        } while (choice != 8);
     }
 }
 
